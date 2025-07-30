@@ -1,0 +1,184 @@
+/* xxl */
+@media(min-width:1400px){
+    .container{
+        width: 1320px;
+    }
+
+    /* navbar secttion  */
+    .conlist{
+        justify-content: center;
+    }
+    .toggel{
+        visibility: hidden;
+        
+    }
+    /* feactured cection  */
+    .w-xxl-3{
+        width: 33.33%;
+    }
+}
+/* xl */
+@media(max-width:1399px){
+    .container{
+        width: 1140px;
+    }
+    .conlist{
+        justify-content: center;
+    }
+    /* navbar secttion  */
+    .toggel{
+        /* visibility: hidden; */
+        display: none;
+    }
+    /* feactured cection  */
+    .w-xl-3{
+        width: 33.33%;
+    }
+}
+/* lg */
+@media(max-width:1199px){
+    .container{
+        width: 960px;
+    }
+    /* navbar secttion  */
+    .toggel{
+        visibility: hidden;
+    }
+    .main{
+        margin-left: 0px;
+    }    
+    /* feactured cection  */
+    .w-lg-2{
+        width: 50%;
+    }
+    .feacture{
+        margin: 10px;
+    }
+    .w-lg-3{
+        width: 33.33%;
+    }
+    .w-lg-1{
+        width: 100%;
+    }
+
+}
+/* md */
+@media(max-width:991px){
+    .container{
+        width: 720px;
+    }
+    /* navbar secttion  */
+    .conlist{
+        visibility: hidden;
+        opacity: 0;
+        display: none;
+    }
+    .toggel{
+        display: flex;
+        flex-direction: column;
+        visibility: visible;
+    }
+    /* feactured section  */
+    .w-md-2{
+        width: 50%;
+    }
+    .w-md-1{
+        width: 100%;
+    }
+    /* Explore top subjects section */
+    .w-md-3{
+        width: 33.33%;
+    }
+    .sub-img-con{
+        margin: 20px;
+    }
+}
+/* sm  */
+@media(max-width:767px){
+    .container{
+        width: 540px;
+    }
+    /* navbar secttion  */
+    .conlist{
+        visibility: hidden;
+        opacity: 0;
+        display: none;
+    }
+    .toggel{
+        display: flex;
+        flex-direction: column;
+        visibility: visible;
+    }
+    /* feactured cection ,   */
+    .w-sm-1{
+        width: 100%;
+    }
+    .featured-item{
+        margin-top: 30px;
+    }
+    /* about section   */
+    .video-con{
+        margin: 40px 0 20px 100px;
+    }
+    /* expercts facaltys section  */
+    .exp-img-con img{
+        margin-left: 155px;
+    }
+    .exp-info p{
+        margin-left: 80px;
+        margin-bottom: 20px;
+    }
+    .about-info h2 ,
+    .about-info  p {
+        margin: 0;
+    }
+    /* footer section start here  */
+    .in-touch{
+        margin-top: -100px;
+    }
+
+}
+/* xs  */
+@media(max-width:575px){
+    .container{
+        width: 100%;
+    }
+    /* navbar secttion  */
+    .conlist{
+        visibility: hidden;
+        opacity: 0;
+        display: none;
+    }
+    .toggel{
+        display: flex;
+        flex-direction: column;
+        visibility: visible;
+    }
+    /* feactured cection , about section   */
+    .w-xs-1{
+        width: 100%;
+    }
+    .main{
+        margin: 10px;
+    }
+    /* about section   */
+    .video-con{
+        margin: 40px 0 20px 100px;
+    }
+    /* about section-1   */
+    .about-img img{
+        width: 450px;
+    }
+    /* expercts facaltys section  */
+    .exp-img-con img{
+        margin-left: 160px;
+    }
+    .exp-info p{
+        margin-left: 80px;
+        margin-bottom: 20px;
+    }
+    /* footer section  */
+    .in-touch{
+        margin-top: -100px;
+    }
+}
